@@ -14,6 +14,10 @@ function bazinga() {
     img2.setAttribute("src", "sheldonCooper.jfif");
     img2.setAttribute("style", "margin-left:44%;");
 
+    button.addEventListener('click', (evt) => {
+        rollbar.log('I was clicked!')
+    })
+
     document.body.insertBefore(img, p1);
     document.body.insertBefore(msg, p2);
     document.body.insertBefore(msg2, p3);
