@@ -17,7 +17,7 @@ app.get('/css', (req, res) => {
 })
 
 app.get('/js', (req, res) => {
-  res.status(200).sendFile(path.join(__dirname, '../client/birthdayWebsitejs'))
+  res.status(200).sendFile(path.join(__dirname, '../client/birthdayWebsite.js'))
 })
 
 app.listen(4000, console.log("App running on 4000"))
