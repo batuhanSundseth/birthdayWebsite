@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    padding: 10px;
+}
+
+.button {
+    color: white;
+    background-color: black;
+    border-color: lime;
+    margin-top: 25%;
+    margin-left: 45%;
+}
